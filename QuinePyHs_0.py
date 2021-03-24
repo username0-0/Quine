@@ -10,7 +10,7 @@ s=[
     "def f(x):",
     "    return q+x+q",
     "ss=[]",
-    "for x in [0,1]:",
+    "for x in [21,2]:",
     "    ss.append(s[x])",
     "a,b=0,len(s)",
     "while a<b-1:",
@@ -18,7 +18,7 @@ s=[
     "    a += 1",
     "ss.append(s[3]+f(s[a])+chr(93))",
     "for x in [0,1,2,3,4,5,6,7,8,9]:",
-    "    ss.append(s[a-10+x])",
+    "    ss.append(s[b-10+x])",
     "#halt with <A_2B_2>",
     "for x in ss:",
     "    print(x)",
@@ -37,7 +37,7 @@ q=chr(34)
 def f(x):
     return q+x+q
 ss=[]
-for x in [0,1]:
+for x in [21,2]:
     ss.append(s[x])
 a,b=0,len(s)
 while a<b-1:
@@ -45,7 +45,7 @@ while a<b-1:
     a += 1
 ss.append(s[3]+f(s[a])+chr(93))
 for x in [0,1,2,3,4,5,6,7,8,9]:
-    ss.append(s[a-10+x])
+    ss.append(s[b-10+x])
 #halt with <A_2B_2>
 for x in ss:
     print(x)
